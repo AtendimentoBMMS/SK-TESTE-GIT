@@ -62,7 +62,7 @@ Templates/Cliente/
 - Integracoes/
 
 **Como usar:**
-1. Copie Templates/Cliente/ para Por-Clientes/Novo-Cliente/
+1. Copie Templates/Cliente/ para Clientes/Novo-Cliente/
 2. Renomeie pastas "EXEMPLO" para nomes reais
 3. Preencha arquivos .md
 
@@ -70,7 +70,7 @@ Templates/Cliente/
 
 ## Exemplos de Nomes
 
-Por-Clientes/
+Clientes/
 - Cliente-ACME/
   - Banco/
     - Rotinas/
