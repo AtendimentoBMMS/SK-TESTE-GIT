@@ -9,7 +9,7 @@ Repositório centralizado para documentação técnica e funcional do ERP.
 Interno/
 - Integrações gerais (não ligadas a cliente ou que são produtos a parte)
 
-Por-Clientes/
+Clientes/
 - Customizações específicas por cliente
 
 Templates/
@@ -27,7 +27,7 @@ Contém:
 
 ---
 
-## Detalhes Por-Clientes/Cliente-X/
+## Detalhes Clientes/Cliente-X/
 
 Cliente-X/
 - Banco/ 
@@ -62,7 +62,7 @@ Templates/Cliente/
 - Integracoes/
 
 **Como usar:**
-1. Copie Templates/Cliente/ para Por-Clientes/Novo-Cliente/
+1. Copie Templates/Cliente/ para Clientes/Novo-Cliente/
 2. Renomeie pastas "EXEMPLO" para nomes reais
 3. Preencha arquivos .md
 
@@ -70,7 +70,7 @@ Templates/Cliente/
 
 ## Exemplos de Nomes
 
-Por-Clientes/
+Clientes/
 - Cliente-ACME/
   - Banco/
     - Rotinas/
