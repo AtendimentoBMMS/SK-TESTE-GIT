@@ -1,74 +1,69 @@
-# Documentação ERP - SK-TESTE-GIT
+# 🚀 Documentação ERP - SK-TESTE-GIT
 
-Este repositório é a base centralizada para o armazenamento e padronização de toda a documentação técnica e funcional do ERP. Ele serve como um template vivo para garantir que integrações, rotinas de banco de dados e customizações sejam documentadas de forma idêntica em todos os projetos, facilitando a manutenção e o onboarding de novos membros.
-
----
-
-## 📂 Estrutura do Repositório (Mapa de Navegação)
-
-A hierarquia segue a lógica: **Origem > Cliente > Setor > Tipo de Artefato > Objeto**.
-
-Interno - Base Para Uso/  (Modelos genéricos e "produtos")
-└── Integracoes/
-    └── [NOME-DA-INTEGRACAO]/
-        ├── Arquivos/ (Payloads JSON e especificações)
-        ├── Anexos/ (Prints e diagramas)
-        └── CHANGELOG.md (Histórico da integração)
-
-Clientes/ (Customizações específicas)
-└── [NOME-DO-CLIENTE]/ (Ex: ACME_SA)
-    └── [NOME-DO-SETOR]/ (Ex: Financeiro, Comercial, WMS)
-        ├── Dashboard/ (Painéis e BI)
-        ├── Procedure/ (Stored Procedures)
-        ├── Function/ (Funções de banco)
-        ├── Trigger/ (Gatilhos)
-        ├── View/ (Visualizações)
-        ├── Tela/ (Telas customizadas no ERP)
-        ├── Integrações/ (Fluxos n8n e APIs específicas)
-        ├── SQL/ (Scripts de ajuste)
-        ├── Relatorio/ (Layouts de impressão)
-        └── Outros/ (Artefatos diversos)
-
-Templates/ (Modelos para clonagem rápida)
-├── Cliente/ (Estrutura base de pastas)
-└── Documentacao/ (Modelos de arquivos .md)
+Este repositório é a base centralizada para o armazenamento e padronização de toda a documentação técnica e funcional do ERP. O objetivo é garantir que integrações, rotinas de banco de dados e customizações sigam o mesmo padrão de qualidade em todos os projetos.
 
 ---
 
-## 🏗️ Definição das Camadas Organizacionais
+## 📂 Organização do Repositório (Hierarquia)
 
-### 1. Interno - Base Para Uso
-Reservado para soluções genéricas desenvolvidas internamente que podem ser replicadas em qualquer cliente (catálogo de padrões).
-* **Padrão**: Deve conter obrigatoriamente a pasta `Arquivos/` com exemplos reais de payloads de entrada e saída.
-* **Documentação**: Deve seguir os modelos presentes na pasta de `Templates/`.
+A estrutura de pastas deve respeitar rigorosamente a ordem abaixo para facilitar a navegação:
 
-### 2. Clientes e Setores (Organização por Negócio)
-Esta é a camada mais importante para a organização lógica das customizações do ERP.
-* **Camada de Setor**: Toda documentação deve ser classificada por setor (Ex: **Financeiro**, **RH**, **Comercial**, **Logística**). Isso isola as regras de negócio e evita conflitos entre áreas distintas.
-* **Camada de Objeto**: Dentro de cada setor, cada artefato técnico deve possuir sua própria pasta exclusiva contendo o arquivo `Documentacao.md` e o histórico de alterações no `CHANGELOG.md`.
+1. **Interno - Base Para Uso** (Modelos genéricos e "produtos" de prateleira)
+    * **Integracoes** (Pasta para cada integração genérica)
+        * **Arquivos** (Exemplos de payloads e especificações técnicos)
+        * **Anexos** (Prints e diagramas de fluxo)
+        * **CHANGELOG.md** (Histórico de versões da integração)
+
+2. **Clientes** (Customizações específicas por projeto)
+    * **[NOME-DO-CLIENTE]** (Ex: SANKHYA_MATRIZ)
+        * **[NOME-DO-SETOR]** (Ex: Financeiro, Comercial, WMS, Logistica)
+            * **Dashboard** (Painéis e indicadores BI)
+            * **Procedure** (Stored Procedures - STPs)
+            * **Function** (Funções de banco de dados)
+            * **Trigger** (Gatilhos de banco)
+            * **View** (Visualizações de dados)
+            * **Tela** (Telas customizadas no ERP)
+            * **Integrações** (Fluxos n8n, APIs e webhooks específicos do setor)
+            * **SQL** (Scripts de ajuste e consultas soltas)
+            * **Relatorio** (Layouts de impressão)
+
+3. **Templates** (Modelos para clonagem rápida)
+    * **Cliente** (Estrutura base de pastas para novos projetos)
+    * **Documentacao** (Arquivos .md pré-preenchidos para guiar o texto)
+
+---
+
+## 🏗️ Camadas Organizacionais
+
+| Camada | Descrição |
+| :--- | :--- |
+| **Interno** | Soluções genéricas que servem como catálogo de padrões para a equipe. |
+| **Clientes** | Espaço dedicado a customizações individuais e específicas de cada conta. |
+| **Setores** | **Nível Obrigatório:** Organiza os artefatos pela área de negócio afetada. |
+| **Objetos** | Subpasta final contendo o arquivo `Documentacao.md` e o histórico de alterações. |
 
 ---
 
 ## 🚀 Workflow de Documentação (Passo a Passo)
 
-Siga este processo para garantir que a documentação seja aprovada e versionada corretamente:
+Siga este processo para garantir a padronização e aprovação técnica:
 
-1.  **Início**: Copie a estrutura de pastas de `Templates/Cliente/` para o diretório `Clientes/[NOME-DO-CLIENTE]/`.
-2.  **Organização**: Mova as pastas de tipos de artefatos (Procedure, Dashboard, etc.) para dentro da pasta do **Setor** correspondente.
-3.  **Identificação**: Dentro da pasta do tipo, crie uma subpasta com o nome técnico exato do objeto (Ex: `Procedure/STP_FIN_CUSTO_MEDIO/`).
-4.  **Preenchimento**: Utilize os modelos de `Templates/Documentacao/` para redigir o `Documentacao.md`.
-    * **Funcional**: Explique o valor entregue ao usuário final.
-    * **Técnico**: Detalhe parâmetros, tabelas Sankhya envolvidas e lógica de código.
-5.  **Histórico**: Registre a versão inicial ou as modificações no arquivo `CHANGELOG.md`.
-6.  **Publicação e Revisão**:
-    * Execute os comandos `git add .` e `git commit -m "docs(setor): adiciona documentação do objeto X"`.
-    * Faça o `git push` para o repositório remoto.
-    * Abra um **Pull Request** para revisão técnica pela equipe.
+* **1. Preparação**: Copie a estrutura de `Templates/Cliente/` para dentro de `Clientes/[NOME-DO-CLIENTE]/`.
+* **2. Classificação**: Organize as pastas de tipos de artefatos dentro da pasta do **Setor** correspondente.
+* **3. Identificação**: Crie uma subpasta com o nome técnico exato do objeto (Ex: `Procedure/STP_FIN_RENEGOCIACAO/`).
+* **4. Escrita**: Utilize os modelos de `Templates/Documentacao/` para preencher o `Documentacao.md`.
+    * **Visão Funcional**: O que o objeto entrega para o usuário final.
+    * **Visão Técnica**: Parâmetros, tabelas envolvidas e regras de código.
+* **5. Histórico**: Mantenha o `CHANGELOG.md` atualizado com cada ajuste realizado.
+* **6. Publicação**: Realize o commit e abra um **Pull Request** para revisão da equipe.
 
 ---
 
 ## 📝 Convenções de Nomenclatura
 
-* **Pastas de Clientes**: CAIXA_ALTA_COM_UNDERLINE (Ex: `MATRIZ_SANKHYA`).
-* **Pastas de Setores**: Nome funcional claro, iniciando com maiúscula (Ex: `Comercial`, `Financeiro`, `WMS`).
-* **Pastas de Objetos**: Devem utilizar o nome oficial presente no banco de dados ou no sistema (Ex: `AD_FIN_RENEGOCIACAO`).
+* **Clientes**: CAIXA_ALTA_COM_UNDERLINE (Ex: `CLIENTE_SANKHYA_LOG`).
+* **Setores**: Nome funcional claro iniciando com maiúscula (Ex: `Financeiro`, `Expedicao`).
+* **Objetos Técnicos**: Nome oficial presente no banco de dados ou ERP (Ex: `AD_FIN_CONCILIACAO`).
+
+---
+*Documento consolidado para padronização técnica — 2026.*
