@@ -1,0 +1,40 @@
+# Atividade: NOME-DA-ATIVIDADE
+
+## 1. Identificação
+- Projeto / Integração:
+- Cliente:
+- Responsável:
+- Data de início:
+- Data de conclusão:
+
+## 2. Objetivo da atividade
+- O que deve ser entregue ao final:
+- Critérios de sucesso:
+
+## 3. Entradas
+- Documentos necessários:
+- Acessos/sistemas necessários:
+- Pré-condições:
+
+## 4. Passos executados
+- Passo 1:
+- Passo 2:
+- Ferramentas utilizadas:
+
+## 5. Saídas / Entregáveis
+- Documentos gerados:
+- Configurações realizadas:
+- Artefatos anexados (links):
+
+## 6. Riscos, problemas e decisões
+- Riscos identificados:
+- Problemas encontrados e solução:
+- Decisões de negócio tomadas (com responsáveis):
+
+## 7. Checklist de encerramento
+- [ ] Documentação atualizada no repo
+- [ ] Cliente/usuário alinhado
+- [ ] Chamados vinculados encerrados
+
+## 8. Observações finais
+- Comentários adicionais:

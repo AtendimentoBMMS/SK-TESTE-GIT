@@ -1,0 +1,35 @@
+# Integração Externa: NOME-DA-INTEGRACAO
+
+## 1. Visão geral
+- Sistema externo:
+- Tipo de integração (API REST, SOAP, Arquivo, Webhook):
+- Direção (ERP → Externo, Externo → ERP, Bidirecional):
+
+## 2. Fluxo de ponta a ponta
+- Descrição resumida do fluxo:
+- Quem dispara:
+- Quando ocorre:
+
+## 3. Detalhes de interface
+- Endpoints / URLs ou local do arquivo:
+- Método (GET, POST, PUT etc.) ou formato (CSV, XML, JSON):
+- Layout/payload (link para pasta Arquivos/):
+
+## 4. Autenticação e segurança
+- Tipo (API Key, OAuth, Basic, sem auth, VPN etc.):
+- Onde ficam armazenadas as credenciais:
+- Regras de renovação/expiração:
+
+## 5. Mapeamento de dados
+- Campos origem x destino:
+- Tratamento de códigos e domínios (tabelas auxiliares, cadastros):
+
+## 6. Erros e monitoramento
+- Como são retornados erros:
+- Onde são logados:
+- Procedimentos padrão em caso de falha:
+
+## 7. Testes e homologação
+- Ambiente externo usado:
+- Dados de teste:
+- Casos de teste principais:

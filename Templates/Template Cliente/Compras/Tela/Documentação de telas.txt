@@ -1,0 +1,96 @@
+# Tela ERP: NOME-DA-TELA
+
+## 1. Identificação
+- Módulo:
+- ID interno da tela:
+- Tipo de tela: (cadastro, consulta, transação, parâmetro)
+- Projeto / Integração relacionada:
+- Cliente (se aplicável):
+
+## 2. Objetivo da tela
+- Problema de negócio que a tela resolve:
+- Quem usa a tela (perfil / papel):
+- Principais tarefas que o usuário executa nela:
+
+## 3. Navegação
+- Caminho de menu:
+- Atalhos / acessos rápidos:
+- Telas de origem (de onde o usuário costuma vir):
+- Telas de destino (pra onde costuma ir a partir desta tela):
+
+## 4. Layout geral
+- Estrutura: (ex.: cabeçalho + filtros + grid + rodapé)
+- Seções / abas principais:
+  - Aba 1: nome + descrição
+  - Aba 2: nome + descrição
+- Observações de UX (ex.: campos mais usados em destaque, colunas padrão visíveis):
+
+## 5. Campos e componentes da tela
+Descrever por seção/aba ou em tabela.
+
+### 5.1 Lista de campos
+- Campo:
+  - Rótulo na tela:
+  - Nome técnico (campo/tabela ou atributo de API):
+  - Tipo: (texto, número, data, combo, checkbox, lookup, etc.)
+  - Obrigatório: (sim/não, em que condição)
+  - Tamanho/formato: (ex.: 10 caracteres, máscara, formato de data)
+  - Valor padrão:
+  - Regras de validação:
+  - Mensagens de erro:
+
+(Repetir o bloco acima para cada campo relevante, ou registrar em tabela separada se preferir [Na pasta "/Anexos" do projeto].)
+
+### 5.2 Ações e botões
+Para cada botão/ação:
+
+- Nome do botão:
+- Local na tela (toolbar, rodapé, linha do grid, menu contexto):
+- Ação executada:
+- Pré-condições (ex.: requer registro selecionado, requer preenchimento de campo X):
+- Confirmação (ex.: popup de confirmação, mensagem de alerta):
+- Impacto em dados (o que grava/atualiza/exclui):
+
+## 6. Regras de negócio na tela
+- Regras de habilitação/desabilitação de campos:
+- Regras de visibilidade (quem vê o quê e quando):
+- Cálculos feitos na própria tela (totais, descontos, etc.):
+- Dependência entre campos (ex.: seleção de cliente carrega lista de pedidos):
+
+## 7. Integrações e dependências
+- Dados carregados de outras telas / módulos:
+- Chamadas de API ao abrir/salvar:
+- Integrações externas relacionadas:
+- Tabelas, views ou procedures diretamente dependentes da tela:
+
+## 8. Mensagens e estados
+- Mensagens de sucesso:
+- Mensagens de erro:
+- Mensagens de validação:
+- Estados especiais da tela:
+  - Carregando:
+  - Sem registros:
+  - Somente leitura:
+  - Bloqueada por permissão:
+
+## 9. Segurança e permissões
+- Perfis/grupos que podem acessar a tela:
+- Permissões por ação (visualizar, incluir, alterar, excluir, aprovar, etc.):
+- Restrições por contexto (empresa, filial, centro de custo, etc.):
+
+## 10. Requisitos não funcionais
+- Performance esperada (ex.: tempo máximo de carregamento, tamanho típico do grid):
+- Volume de dados esperado:
+- Requisitos de usabilidade/acessibilidade relevantes:
+- Comportamento em diferentes resoluções (se aplicável):
+
+## 11. Testes da tela
+- Cenários principais de teste:
+  - Cenário 1: descrição + passos + resultado esperado
+  - Cenário 2: ...
+- Casos de borda (ex.: campos limites, sem permissão, sem dados):
+- Como validar dados gravados (consultas no ERP, relatórios, banco):
+
+## 12. Anexos e referências
+- Mockups / wireframes (link ou pasta Anexos/):
+- Documentos funcionais relacionados:

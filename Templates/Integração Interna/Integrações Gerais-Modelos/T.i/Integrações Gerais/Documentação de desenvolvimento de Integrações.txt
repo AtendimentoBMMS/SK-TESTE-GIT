@@ -1,0 +1,65 @@
+# Nome do Projeto / Integração
+
+## 1. Visão geral
+- Tipo: (Integração interna, Integração externa)
+- Sistema origem:
+- Sistema destino:
+- Cliente (se aplicável):
+- Status: (Em análise, Em desenvolvimento, Homologação, Produção)
+- Responsável técnico:
+- Responsável funcional/negócio:
+
+## 2. Objetivo de negócio
+- Problema que resolve
+- Benefícios esperados
+- Indicadores de sucesso (KPIs)
+
+## 3. Escopo
+- Itens incluídos:
+- Itens explicitamente fora de escopo:
+- Restrições (técnicas, legais, operacionais):
+
+## 4. Fluxo funcional
+- Descrição passo a passo do fluxo
+- Perfis/usuários envolvidos
+- Pontos de entrada (telas, APIs, jobs agendados)
+- Fluxograma (link para anexo, se houver)
+
+## 5. Regras de negócio
+- Regra 1:
+- Regra 2:
+- Tabelas/campos críticos no ERP:
+- Exceções e tratamentos de erro:
+
+## 6. Detalhamento técnico
+- Arquitetura (resumo: onde roda, integra com o quê)
+- Formato de dados (JSON, CSV, XML, TXT etc.)
+- Layouts de arquivos / payloads (link para pasta Arquivos/)
+- Tabelas, procedures, triggers, views envolvidas
+- Dependências externas (APIs de terceiros, serviços internos)
+
+## 7. Parametrizações no ERP
+- Menus / telas configuradas:
+- Parâmetros de sistema:
+- Códigos fixos (ex.: natureza de operação, CFOP, tipo de movimento etc.):
+
+## 8. Segurança e acesso
+- Permissões necessárias:
+- Dados sensíveis envolvidos:
+- Logs e auditoria (onde ficam, retenção):
+
+## 9. Testes e homologação
+- Ambiente utilizado:
+- Casos de teste principais:
+- Como validar resultado no ERP:
+- Critérios de aceite:
+
+## 10. Operação e rotina
+- Frequência (online, batch horário X, diário, semanal):
+- Monitoramento (o que checar, onde ver logs, dashboards):
+- Procedimentos em caso de falha:
+
+## 11. Anexos e referências
+- Links para Arquivos/ e Anexos/
+- Chamados relacionados (Jira, Redmine, etc.)
+- Documentos externos relevantes

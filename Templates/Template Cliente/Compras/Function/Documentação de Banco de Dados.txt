@@ -1,0 +1,33 @@
+# Rotina de Banco: NOME-DESCRITIVO
+
+## 1. Contexto
+- Cliente (se aplicável):
+- Módulo do ERP:
+- Motivo da rotina (por que ela existe):
+
+## 2. Escopo da rotina
+- Tabelas envolvidas:
+- Operações realizadas (INSERT, UPDATE, DELETE, SELECT, JOB):
+- Momento de execução (trigger em evento X, job agendado, rotina manual):
+
+## 3. Lógica principal
+- Descrição de alto nível do que a rotina faz
+- Regras de negócio aplicadas
+- Campos impactados
+
+## 4. Dependências
+- Outras rotinas do banco:
+- Integrações externas relacionadas:
+- Parametrizações no ERP necessárias:
+
+## 5. Como testar/Usar
+- Pré-requisitos:
+- Passo a passo:
+- Como validar o resultado (tabelas, telas, relatórios):
+
+## 6. Riscos e observações
+- Riscos de performance:
+- Riscos de inconsistência de dados:
+- Cuidados antes/ao rodar em produção:
+
+
