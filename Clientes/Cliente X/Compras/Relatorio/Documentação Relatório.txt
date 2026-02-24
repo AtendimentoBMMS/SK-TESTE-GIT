@@ -1,0 +1,25 @@
+# Report: NOME-FUNCIONAL
+## Nome Dentro do sankhya/Tela onde é acessado (Quando Aplicavél): Nome_Do_Gatilho_Do_Relatório/Dashboard 
+
+## 1. Objetivo
+- O que o report/Dashboard responde?
+- Usuário/Grupo alvo:
+
+## 2. Filtro e parâmetros
+- Parâmetros de entrada:
+- Configurações de cada parâmetro:
+
+## 3. Colunas e campos exibidos
+- Lista de colunas com descrição
+- Origem dos dados (tabela/campo ou view):
+
+## 4. Regras de cálculo
+- Fórmulas e agregações:
+- Tratamento de nulos/exceções:
+
+## 5. Performance e volume
+- Volume esperado de registros:
+- Índices / cuidados de performance:
+
+## (!!!ATENÇÃO!!!) 6. Registro de funcionamento:
+- Prints/links/arquivos (Na pasta Anexos/ deste projeto):
