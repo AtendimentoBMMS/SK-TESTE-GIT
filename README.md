@@ -6,8 +6,9 @@ Repositório centralizado para documentação técnica e funcional do ERP.
 
 ## Estrutura Principal
 
-Interno/
+Interno - Base Para Uso/
 - Integrações gerais (não ligadas a cliente ou que são produtos a parte)
+- Integrações/Modelos Genéricos de telas e rotinas para serem replicadas
 
 Clientes/
 - Customizações específicas por cliente
