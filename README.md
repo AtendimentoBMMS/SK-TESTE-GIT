@@ -65,5 +65,3 @@ Siga este processo para garantir a padronização e aprovação técnica:
 * **Setores**: Nome funcional claro iniciando com maiúscula (Ex: `Financeiro`, `Expedicao`).
 * **Objetos Técnicos**: Nome oficial presente no banco de dados ou ERP (Ex: `AD_FIN_CONCILIACAO`).
 
----
-*Documento consolidado para padronização técnica — 2026.*
