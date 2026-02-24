@@ -18,9 +18,9 @@ Templates/
 
 ---
 
-## Detalhes Interno/Integracoes/
+## Detalhes Interno - Base Para Uso/Integracoes/
 
-Pasta: Interno/Integracoes/NOME/
+Pasta: Interno - Base Para Uso/Integracoes/NOME/
 Contém:
 - Arquivos/ (layouts, exemplos)
 - Anexos/ (diagramas, extras)
