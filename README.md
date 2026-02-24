@@ -7,9 +7,15 @@ A ideia é usar este repo como base/template para outros repositórios ou projet
 
 ## Estrutura principal
 
+<<<<<<< HEAD
 - `Interno - Base Para Uso/`  
   Modelos e exemplos **genéricos**, não ligados a um cliente específico.  
   Usado como referência para reproduzir integrações, telas, rotinas, objetos de banco, etc.
+=======
+Interno - Base Para Uso/
+- Integrações gerais (não ligadas a cliente ou que são produtos a parte)
+- Integrações/Modelos Genéricos de telas e rotinas para serem replicadas
+>>>>>>> 61758b839419d533cee530dd5d8fe3f32442d70d
 
 - `Clientes/`  
   Exemplos de estrutura para **customizações por cliente** (dashboard, telas, integrações, procedures, functions, triggers, views, SQL, relatórios, outros).
@@ -19,6 +25,7 @@ A ideia é usar este repo como base/template para outros repositórios ou projet
 
 ---
 
+<<<<<<< HEAD
 ## Interno - Base Para Uso/
 
 `Interno - Base Para Uso/Integracoes/`  
@@ -32,6 +39,15 @@ Dentro de cada integração em `Interno - Base Para Uso/Integracoes/NOME/` recom
 - `CHANGELOG.md` – histórico de alterações daquela integração.  
 
 Outras pastas internas podem seguir o mesmo padrão (por exemplo, telas ou rotinas genéricas), reaproveitando os templates da pasta `Templates/`.
+=======
+## Detalhes Interno - Base Para Uso/Integracoes/
+
+Pasta: Interno - Base Para Uso/Integracoes/NOME/
+Contém:
+- Arquivos/ (layouts, exemplos)
+- Anexos/ (diagramas, extras)
+- CHANGELOG.md (histórico)
+>>>>>>> 61758b839419d533cee530dd5d8fe3f32442d70d
 
 ---
 
